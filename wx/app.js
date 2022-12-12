@@ -19,5 +19,8 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  requiredPrivateInfos: [
+    "chooseLocation"
+  ],
 })
